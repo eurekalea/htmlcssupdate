@@ -99,6 +99,36 @@ img{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	width: 50%;
+}
+
+.banner-introduction{
+	background-image: url(/img/bg-right.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 50%;
+	&-content{
+		text-align: left;
+		color:#0027D5;
+		margin-left: 80px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: start;
+	}
+}
+
+.blog-title{
+	font-size: 120px;
+	line-height: 1.5;
+	color: #0027D5;
+}
+
+.banner-subtitle{
+	font-size: 28px;
+	line-height: 1.5;
+	color: #0027D5;
 }
 
 .footer{
