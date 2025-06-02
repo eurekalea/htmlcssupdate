@@ -95,15 +95,15 @@ img{
 }
 
 .banner-photo{
-	background-image: url(/img/bg-left.jpg);
+	background-image: url(../img/bg-left.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 50%;
 }
 
-.banner-introduction{
-	background-image: url(/img/bg-right.jpg);
+.banner-introduce{
+	background-image: url(../img/bg-right.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
