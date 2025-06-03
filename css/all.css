@@ -121,6 +121,26 @@ img{
 	}
 }
 
+@media (max-width:768px){
+	.banner{
+		flex-direction: column;
+		height: auto;
+	}
+	.banner-photo, .banner-introduce{
+		width: 100%;
+	}
+	.banner-photo{
+		height: calc(100vh-90px-180px);
+	}
+	.banner-introduce{
+		padding: 24px;
+	}
+	.banner-introduce-content{
+		margin-left: 0px;
+	}
+}
+
+
 .blog-title{
 	font-size: 120px;
 	line-height: 1.5;
