@@ -100,6 +100,7 @@ img{
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 50%;
+	height: 100%;
 }
 
 .banner-introduce{
@@ -107,6 +108,7 @@ img{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	height: 100%;
 	width: 50%;
 	&-content{
 		text-align: left;
