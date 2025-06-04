@@ -121,7 +121,7 @@ img{
 	}
 }
 
-@media (max-width:768px){
+@media (max-width : 768px){
 	.banner{
 		flex-direction: column;
 		height: auto;
@@ -130,7 +130,7 @@ img{
 		width: 100%;
 	}
 	.banner-photo{
-		height: calc(100vh-90px-180px);
+		height: calc(100vh - 90px - 180px);
 	}
 	.banner-introduce{
 		padding: 24px;
